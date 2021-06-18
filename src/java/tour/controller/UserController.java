@@ -28,7 +28,7 @@ public class UserController {
     HttpServletRequest request;
 
     @POST
-    @Path("/login")
+    @Path("login")
     @Consumes(MediaType.APPLICATION_JSON)
     @Produces(MediaType.APPLICATION_JSON)
     private User LoginUser(User user) {

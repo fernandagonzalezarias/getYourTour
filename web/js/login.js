@@ -20,7 +20,7 @@ function login() {
     };
     $.ajax({
         type: "POST",
-        url: "/GetYourTour/web/users/",
+        url: "/GetYourTour/users/",
         data: JSON.stringify(user),
         contentType: "application/json"
     }).then((e) => {
